@@ -342,12 +342,6 @@ public class Matrix extends GenericSearchProblem{
 	}
 
 	@Override
-	Boolean goalTest(ArrayList<String> state) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	int pathCost(SearchTreeNode node) {
 		// TODO Auto-generated method stub
 		return 0;
@@ -357,5 +351,17 @@ public class Matrix extends GenericSearchProblem{
 		
 		genGrid();
 		
+	}
+
+	@Override
+	Boolean goalTest(String state) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String stateSpace(String state, Operator operator) {
+		// TODO Auto-generated method stub
+		return null;
 	}
  }

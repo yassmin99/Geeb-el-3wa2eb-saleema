@@ -1,6 +1,6 @@
 package AIProject;
 
-public interface Operator {
+public interface Operator{
 	int cost = 0;
 	String name = "";
 	
