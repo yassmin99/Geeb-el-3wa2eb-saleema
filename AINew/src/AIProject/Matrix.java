@@ -107,6 +107,7 @@ public class Matrix extends GenericSearchProblem{
 		
 		
 		//Agents locations
+		// changed area 
 		int AgentX;
 		int AgentY;
 		AvailableSpots = (M*N) - (Hostages + Pills + 2);
