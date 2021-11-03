@@ -8,6 +8,7 @@ public class Matrix extends GenericSearchProblem{
 	
 	public static void genGrid() {
 		//System.out.println("awl 7aga");
+		//Mai commented
 		int M;
 		int N;
 		int NeoX;
